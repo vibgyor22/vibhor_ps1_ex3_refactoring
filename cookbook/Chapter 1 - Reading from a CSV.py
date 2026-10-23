@@ -19,7 +19,7 @@ broken_df = pd.read_csv("../data/bikes.csv", encoding="ISO-8859-1")
 pl_broken_df = pl.read_csv("../data/bikes.csv", encoding="ISO-8859-1")
 
 # %%
-# Look at the first 3 rows
+# Look at the first three rows
 broken_df[:3]
 
 # Polars: .head(3) is the idiomatic way. Slicing with pl_broken_df[:3] also works.
